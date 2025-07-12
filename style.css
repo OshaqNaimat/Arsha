@@ -1,0 +1,51 @@
+:root{
+    --main-color:#37517E;
+}
+
+.hero-container{
+    background-color: var(--main-color) !important;
+}
+
+nav a{
+    color: white !important;
+}
+
+
+.dropdown-menu a{
+    color: black !important;
+}
+
+.animation{
+    animation: move 2s ease-in-out infinite alternate;
+}
+
+.gray{
+    width: 150px;
+    height: 2px;
+    background-color: lightgray;
+    margin: auto;
+    position: relative;
+}
+
+.cyan{
+    width: 60px;
+    height: 5px;
+    background-color: cyan;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes move{
+    from{
+        transform: translateY(-10px);
+    }to{
+        transform: translateY(10px);
+    }
+}
+.text-blue{
+    color: var(--main-color) !important;
+}
