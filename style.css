@@ -49,3 +49,395 @@ nav a{
 .text-blue{
     color: var(--main-color) !important;
 }
+.text-color{
+    color: #37517E;
+}
+.card-color{
+    color: #56534A;
+}
+
+.hover:hover{
+    color: cyan;
+}
+.hover{
+    transition: all 0.4s;
+}
+
+.p-heading{
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.first-card:hover{
+    transform: translateY(-15px);
+    cursor: pointer;
+    
+
+}
+
+
+.first-card h5:hover{
+  color: cyan;
+}
+
+.first-card h5{
+     transition: all 0.6s;
+}
+
+.first-card{
+    transition: transform 0.6s ease;
+}
+/* .card{
+    position: relative;
+     transition: transform 0.6s ease;
+     overflow: hidden;
+     border-radius: 10px;
+     border: none;
+}
+.card:hover{
+    transform: translateY(-20px);
+    cursor: pointer;
+}
+.card img{
+    transition: all 0.4s;
+}
+.card:hover img{
+    scale: 1.1;
+    
+}
+
+.card-circle{
+    width: 48px;
+    height: 48px;
+    background-color:#47B2E4;
+    border-radius: 50%;
+position: absolute;
+left: 40px;
+top: 160px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: bold;
+color: white;
+} */
+
+  #services {
+            padding: 60px 0;
+            background-color: #fff; /* White background for the section */
+        }
+
+        #services .section-title {
+            text-align: center;
+            padding-bottom: 30px;
+        }
+
+        #services .section-title h2 {
+            font-size: 32px;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 20px;
+            position: relative;
+            display: inline-block; /* To center the underline */
+        }
+
+     #services .section-title h2::after {
+            
+            position: absolute;
+            display: block;
+            width: 50px;
+            height: 3px;
+            
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        #services .section-title p {
+            font-size: 15px;
+            color: #666;
+            margin-bottom: 0;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Styling for the cards */
+        #services .card {
+            background: #fff;
+            box-shadow: 0 0 29px 0 rgba(112, 128, 170, 0.1);
+            transition: all 0.3s ease-in-out;
+            border-radius: 8px; /* Rounded corners */
+            border: none; /* Remove default card border */
+            height: 100%; /* Ensure consistent height for cards in a row */
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Center content vertically */
+            align-items: center; /* Center content horizontally */
+            padding: 40px 30px; /* Adjusted padding for the card itself */
+        }
+
+        #services .card .card-body {
+            padding: 0; /* Remove default card-body padding as padding is on the card */
+            text-align: center;
+            width: 100%; /* Ensure content takes full width */
+        }
+
+        #services .card .icon-wrapper {
+            margin: 0 auto 20px auto;
+            padding-top: 10px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 70px;
+            height: 70px;
+            /* background: #e7f5fe; 
+            border-radius: 50%;  */
+            transition: 0.3s;
+        }
+
+        #services .card .icon-wrapper i {
+            font-size: 36px; /* Adjusted icon size */
+            line-height: 1;
+            color: #47b2e4; /* Primary blue color for icon */
+        }
+
+        /* Custom text colors from your snippet */
+        .text-color {
+            color: #333; /* Assuming a dark gray for card titles */
+        }
+
+        .card-color {
+            color: #848484; /* Assuming a lighter gray for card text */
+        }
+
+        #services .card h5.card-title {
+            font-weight: 700;
+            margin-bottom: 15px;
+            font-size: 20px;
+            color: inherit; /* Inherit color from text-color class */
+        }
+
+        #services .card p.card-text {
+            font-size: 15px;
+            line-height: 24px;
+            margin-bottom: 0;
+            color: inherit; /* Inherit color from card-color class */
+        }
+
+        /* Hover Effect for Cards */
+        #services .card:hover {
+            transform: translateY(-10px); /* Lift effect */
+            box-shadow: 0 4px 30px 0 rgba(112, 128, 170, 0.2); /* Enhanced shadow */
+        }
+
+        /* #services .card:hover .icon-wrapper {
+            background: #47b2e4; 
+        }
+
+        #services .card:hover .icon-wrapper i {
+            color: #fff; 
+        }
+*/
+        #services .card:hover h5.card-title {
+            color: #47b2e4;
+        } 
+
+        /* Responsive adjustments for column spacing */
+        .row.p-3 > div[class*="col-"] {
+            padding: 15px; /* Adjust padding between columns */
+        }
+         /* Custom Styles for the Services Section */
+        #services {
+            padding: 60px 0;
+            background-color: #fff; /* White background for the section */
+        }
+
+        #services .section-title {
+            text-align: center;
+            padding-bottom: 30px;
+        }
+
+        #services .section-title h2 {
+            font-size: 32px;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 20px;
+            position: relative;
+            display: inline-block; /* To center the underline */
+        }
+
+        #services .section-title h2::after {
+            content: '';
+            position: absolute;
+            display: block;
+            width: 50px;
+            height: 3px;
+           /* Primary blue color */
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        #services .section-title p {
+            font-size: 15px;
+            color: #666;
+            margin-bottom: 50px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Styling for the new card design - UPDATED WITH USER'S CSS */
+        #services .card {
+           /* Keep relative for card-circle positioning */
+            transition: transform 0.6s ease; /* User's transition */
+            overflow: hidden; /* User's overflow */
+            border-radius: 10px; /* User's border-radius */
+            border: none; /* User's border */
+            background: #fff; /* Existing background */
+            box-shadow: 0 0 29px 0 rgba(112, 128, 170, 0.1); /* Existing shadow */
+            height: 100%; /* Ensure consistent height for cards in a row */
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start; /* Align content to top */
+            align-items: center; /* Center content horizontally */
+        }
+         
+        #services .card-img-top{
+            position: relative;
+        }
+        #services .card:hover {
+            transform: translateY(-20px); /* User's transform */
+            cursor: pointer; /* User's cursor */
+            box-shadow: 0 4px 30px 0 rgba(112, 128, 170, 0.2); /* Enhanced shadow on hover */
+        }
+
+        #services .card img {
+            transition: all 0.4s; /* User's transition */
+            width: 100%; /* Ensure image fills card width */
+            height: auto;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+
+        #services .card:hover img {
+            scale: 1.2; /* User's scale */
+        }
+
+        #services .card .card-body {
+            padding: 20px; /* Adjust padding for the card body */
+            text-align: center;
+            width: 100%;
+        }
+
+        /* Custom text colors from your snippet */
+        .text-blue {
+            color: #47b2e4; /* Assuming this is the primary blue color */
+        }
+
+        .text-color {
+            color: #333; /* Assuming a dark gray for card titles */
+        }
+
+        .card-color {
+            color: #848484; /* Assuming a lighter gray for card text */
+        }
+
+        #services .card h5.card-title {
+            font-weight: 700;
+            margin-bottom: 15px;
+            font-size: 20px;
+            color: inherit; /* Inherit color from text-color class */
+        }
+
+        #services .card p.card-text {
+            font-size: 15px;
+            line-height: 24px;
+            margin-bottom: 15px; /* Add some space below text */
+            color: inherit; /* Inherit color from card-color class */
+        }
+
+        #services .card ul {
+            padding-left: 0; /* Remove default ul padding */
+            text-align: left; /* Align list items to the left */
+        }
+
+        #services .card ul li {
+            list-style: none;
+            display: flex; /* Use flex for icon and text alignment */
+            align-items: center;
+            margin-bottom: 10px;
+            font-size: 15px;
+            color: inherit; /* Inherit color from card-color class */
+        }
+
+        #services .card ul li i {
+            margin-right: 10px;
+            font-size: 18px; /* Adjust icon size in list */
+            color: #47b2e4; /* Info color for check circle */
+        }
+
+        /* Card Circle Overlay - UPDATED WITH USER'S CSS */
+        .card-circle {
+            width: 48px; /* User's width */
+            height: 48px; /* User's height */
+            background-color: #47B2E4; /* User's background-color */
+            border-radius: 50%; /* User's border-radius */
+            position: absolute; /* User's position */
+            left: 10%; /* User's left */
+            top: 3%; /* User's top */
+            display: flex; /* User's display */
+            align-items: center; /* User's align-items */
+            justify-content: center; /* User's justify-content */
+            font-weight: bold; /* User's font-weight */
+            color: white; /* User's color */
+            z-index: 2; /* Ensure it's above other content */
+        }
+
+        /* Gray and Cyan lines under SERVICES title */
+        /* .gray {
+            width: 100%;
+            height: 2px;
+            background-color: #e0e0e0;
+            position: relative;
+            margin-top: -10px; 
+            margin-bottom: 20px;
+        }
+
+        .cyan {
+            width: 50px; 
+            height: 3px;
+            background-color: #47b2e4;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: -1px; 
+        } */
+
+        /* Responsive adjustments for column spacing */
+        .row.g-4 { /* Using g-4 for consistent gutter spacing */
+            --bs-gutter-x: 1.5rem; /* Default Bootstrap gutter */
+            --bs-gutter-y: 1.5rem;
+        }
+
+        @media (max-width: 991.98px) {
+    #services .card img {
+        height: 220px; /* Make images slightly shorter on tablets */
+    }
+    .card-circle {
+        top: calc(220px - 24px); /* Adjust circle position to match new image height */
+    }
+}
+
+/* For screens smaller than medium (e.g., mobile phones) */
+@media (max-width: 767.98px) {
+    #services .card img {
+        height: 180px; /* Make images even shorter on mobile */
+    }
+    .card-circle {
+        top: calc(180px - 24px); /* Adjust circle position to match new image height */
+    }
+    #services .card .card-body {
+        padding-top: 30px; /* Slightly less padding on mobile */
+    }
+}
